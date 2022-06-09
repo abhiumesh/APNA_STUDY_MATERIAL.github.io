@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+    header {
+      padding: 2px;
+    }
+    header h1{
+        font-size: 30px;
+    }
+    nav{
+        display: flex;
+    }
+    nav a{
+        flex-direction: row;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    iframe{
+        width: 90%;
+        margin: 0px auto;
+        height: 320px;
+    }
+
+    footer{
+        height: 52px;
+    }
+
+  }
